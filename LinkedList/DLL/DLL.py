@@ -14,7 +14,7 @@ class DoublyLinkedList:
     def append(self,value):
         new = node(value)
 
-        if self.head == None:
+        if self.head is None:
             self.head = new
             self.tail = new
             self.length += 1

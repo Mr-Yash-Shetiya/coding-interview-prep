@@ -33,7 +33,6 @@ class stack:
         self.height -= 1
         return temp.value
 
-
 user_action_stack = stack(1)
 user_action_stack.push(2)
 user_action_stack.push(3)
